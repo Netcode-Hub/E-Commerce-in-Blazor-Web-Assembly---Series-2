@@ -1,0 +1,93 @@
+﻿@page "/manage-categories"
+@using ORMExplained.Shared.DTO;
+@inject ICategoryService categoryService
+@inject IJSRuntime JS
+@inject NavigationManager navigationManager
+@if (serviceModel.List != null)
+{
+    <div class="row">
+        <div class="row sticky-top mb-1">
+            <div class="col-md-8 mt-1"><h3 class="text-muted" style="font-family:'Javanese Text'">Manage Categories</h3></div>
+        </div>
+        <hr />
+        @foreach (var category in serviceModel.List)
+        {
+            <div class="col-md-3">
+                <div class="card border-1 m-2 mb-2">
+                    <a href="productDetails/@category.Id" style="text-decoration:none;">
+                        <div class="card-header text-center">
+                            <img class="card-img-top" src="@category.Image" style="width:200px; height:150px" />
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                <span class="text-primary">Name: @category.Name </span>&nbsp; &nbsp;
+                                <br />
+                                <span class="text-secondary text-muted fs-6">Url: @category.Url</span><br>
+                            </p>
+                        </div>
+                    </a>
+                    <div class="card-footer bg-white">
+                        <button class="btn btn-outline-warning btn-sm float-start" @onclick="(()=> HandleUpdate(category.Id))">
+                            <i class="oi oi-arrow-circle-top"></i>
+                            Update
+                        </button>
+                        <button class="btn btn-outline-danger btn-sm float-end" @onclick="(async ()=> await HandleDelete(category.Id, category.Name!))">
+                            <i class="oi oi-trash"></i>
+                            Delete
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-3 mb-5">
+                <div class="d-flex justify-content-center mt-5">
+                    <div class="spinner-border text-danger" role="status" style="width: 5rem; height: 5rem;">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
+
+
+@code {
+    string Message = string.Empty;
+    string Cssclass = string.Empty;
+    public ServiceModel<Category> serviceModel = new ServiceModel<Category>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetCategories();
+    }
+
+
+    private async Task GetCategories() => serviceModel = await categoryService.GetCategories();
+
+    private async Task HandleDelete(int id, string name)
+    {
+        bool confirm = await JS.InvokeAsync<bool>("confirm", $"Are you sure you want to delete {name} ?");
+        if (confirm)
+        {
+            var category = await categoryService.DeleteCategory(id);
+            await JS.InvokeVoidAsync("alert", $"{name} deleted from the list");
+            serviceModel.List = category.List;
+        }else{ return; }
+    }
+    
+    private void HandleUpdate(int id)
+    {
+        navigationManager.NavigateTo($"update-category/{id}");
+    }
+}

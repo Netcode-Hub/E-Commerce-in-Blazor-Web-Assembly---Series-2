@@ -1,0 +1,48 @@
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.deps.json
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.AssemblyReference.cache
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfoInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfo.cs
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.CoreCompileInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\refint\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\ORMExplained\ORMExplained\Shared\obj\Debug\net7.0\ref\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.deps.json
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.AssemblyReference.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfoInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfo.cs
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.CoreCompileInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\refint\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly\ORMExplained\Shared\obj\Debug\net7.0\ref\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.deps.json
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.AssemblyReference.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfoInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfo.cs
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.CoreCompileInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\refint\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\Pagination in Blazor Web Assembly Empty one\ORMExplained\Shared\obj\Debug\net7.0\ref\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.deps.json
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\bin\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.AssemblyReference.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfoInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.AssemblyInfo.cs
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.csproj.CoreCompileInputs.cache
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\refint\ORMExplained.Shared.dll
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ORMExplained.Shared.pdb
+C:\ASP.NET Core Blazor Server ECormmerce\Demo for youtube\ORMExplained\Shared\obj\Debug\net7.0\ref\ORMExplained.Shared.dll

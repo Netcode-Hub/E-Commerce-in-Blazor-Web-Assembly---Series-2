@@ -1,0 +1,97 @@
+﻿@inject ICategoryService categoryService
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">E-Commerce</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+<div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="text-light">Administration</div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" Match="NavLinkMatch.All">
+                <span class="oi oi-terminal" aria-hidden="true"></span>
+                <div class="btn-group">
+                    <button type="button" class="btn bg-none text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Manage Products
+                    </button>
+                    <ul class="dropdown-menu bg-secondary">
+                        <li>
+                            <NavLink class="nav-link" href="addProduct" Match="NavLinkMatch.All">
+                                <span class="oi oi-plus p-1" aria-hidden="true"></span> Add Product
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink class="nav-link" href="manage-products" Match="NavLinkMatch.All">
+                                <span class="oi oi-arrow-circle-top p-1" aria-hidden="true"></span> Update/Delete
+                            </NavLink>
+                        </li>
+                    </ul>
+                </div>
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" Match="NavLinkMatch.All">
+                <span class="oi oi-terminal" aria-hidden="true"></span>
+                <div class="btn-group">
+                    <button type="button" class="btn bg-none text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Manage Categories
+                    </button>
+                    <ul class="dropdown-menu bg-secondary">
+                        <li>
+                            <NavLink class="nav-link" href="add-category" Match="NavLinkMatch.All">
+                                <span class="oi oi-plus p-1" aria-hidden="true"></span> Add Category
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink class="nav-link" href="manage-categories" Match="NavLinkMatch.All">
+                                <span class="oi oi-arrow-circle-top p-1" aria-hidden="true"></span> Update/Delete
+                            </NavLink>
+                        </li>
+                    </ul>
+                </div>
+            </NavLink>
+        </div>
+        <div class="text-light">Categories</div>
+        <div class="nav-item px-3">
+            @if(serviceModel.List != null)
+            {
+                foreach(var cat in serviceModel.List)
+                {
+                    <NavLink class="nav-link" href="@cat.Url" Match="NavLinkMatch.All">
+                        <span class="oi oi-arrow-circle-right" aria-hidden="true"></span> @cat.Name
+                    </NavLink>
+                }
+            }
+            else
+            {
+                <div class="row"><div class="badge"> Loading...</div> </div>
+            }
+        </div>
+    </nav>
+</div>
+
+
+@code {
+    ServiceModel<Category> serviceModel = new ServiceModel<Category>();
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        serviceModel = await categoryService.GetCategories();
+    }
+}
